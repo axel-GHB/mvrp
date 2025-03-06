@@ -21,7 +21,7 @@ DEBUG = False
 
 # Shows/hides Quantum Hybrid vs Classical cost comparison in the
 # results tab when both are run with the same settings.
-SHOW_COST_COMPARISON = False
+SHOW_COST_COMPARISON = True
 
 # Units will be in miles if true, meters if false
 # If updated, make sure units match COST_LABEL below
