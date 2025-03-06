@@ -36,7 +36,7 @@ from solver.solver import SamplerType, VehicleType
 
 map_width, map_height = 1000, 600
 
-VEHICLE_TYPES = {VehicleType.TRUCKS: "Trucks", VehicleType.DELIVERY_DRONES: "Delivery Drones"}
+VEHICLE_TYPES = {VehicleType.TRUCKS: "Bicycles", VehicleType.DELIVERY_DRONES: "Delivery Drones"}
 SAMPLER_TYPES = {SamplerType.NL: "Quantum Hybrid (NL)", SamplerType.KMEANS: "Classical (K-Means)"}
 
 if SHOW_DQM:

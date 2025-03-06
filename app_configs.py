@@ -39,11 +39,11 @@ DISTANCE = 1700  # bounding box distance (in meters) around address
 THUMBNAIL = "assets/dwave_logo.svg"
 
 APP_TITLE = "MVRP Demo"
-MAIN_HEADER = "Multi Vehicle Routing Problem"
+MAIN_HEADER = "Supremacy Paper Delivery Routes"
 DESCRIPTION = """\
-Run the Multi Vehicle Routing Problem (MVRP) problem for several different scenarios. Select
-between delivery drones (flight path) and trucks (roads), the number of vehicles and client
-locations.
+Let's get this Quantum Supremacy paper to as many people at the SXSW conference. 
+We'll get a paper route setup with a few couriers on bicycles, but let's make sure 
+they travel the least distance possible. Oh and let's get a couple D-Wave T-Shirts delivered as well!
 """
 
 DEPOT_LABEL = "Austin Convention Center"  # Either "Depot" or specific start location
