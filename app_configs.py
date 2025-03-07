@@ -25,8 +25,8 @@ SHOW_COST_COMPARISON = True
 
 # Units will be in miles if true, meters if false
 # If updated, make sure units match COST_LABEL below
-UNITS_IMPERIAL = False
-COST_LABEL = "Distance (m)"  # Either "Distance (m)" or specific distance cost description
+UNITS_IMPERIAL = True
+COST_LABEL = "Distance"  # Either D"Distance (m)" or specific distance cost description
 
 # THEME_COLOR is used for the button, text, and banner and should be dark
 # and pass accessibility checks with white: https://webaim.org/resources/contrastchecker/
@@ -39,7 +39,7 @@ DISTANCE = 1700  # bounding box distance (in meters) around address
 THUMBNAIL = "assets/dwave_logo.svg"
 
 APP_TITLE = "MVRP Demo"
-MAIN_HEADER = "Supremacy Paper Delivery Routes"
+MAIN_HEADER = "Quantum Supremacy Paper Delivery Routes"
 DESCRIPTION = """\
 Let's get this Quantum Supremacy paper to as many people at the SXSW conference. 
 We'll get a paper route setup with a few couriers on bicycles, but let's make sure 
